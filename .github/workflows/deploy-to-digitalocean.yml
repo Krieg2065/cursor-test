@@ -32,6 +32,8 @@ jobs:
 
             # Pull the latest code
             git pull origin main
+            
+            source venv/bin/activate
 
             # Install dependencies if needed
             pip3 install -r requirements.txt
