@@ -28,7 +28,7 @@ jobs:
           port: ${{ secrets.PORT }}
           script: |
             # Navigate to the project directory
-            cd /path/to/your/project
+            cd /root/mcptest/
 
             # Pull the latest code
             git pull origin main
