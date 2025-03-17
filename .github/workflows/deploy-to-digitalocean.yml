@@ -17,7 +17,7 @@ jobs:
           # Install Python and dependencies
           sudo apt-get update
           sudo apt-get install -y python3 python3-pip
-          pip3 install mcp-server-fastmcp
+          pip3 install mcp
 
       - name: Deploy to DigitalOcean
         uses: appleboy/ssh-action@master
