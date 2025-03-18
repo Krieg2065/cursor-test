@@ -17,4 +17,4 @@ def get_greeting(name: str) -> str:
 
 # Run the server
 if __name__ == "__main__":
-    mcp.run(port=8000)
+    mcp.run()
